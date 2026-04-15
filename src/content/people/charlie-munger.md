@@ -78,6 +78,14 @@ Munger's greatest contributions to investing:
 2. **Multidisciplinary thinking** — Prevents catastrophic errors
 3. **Psychology is central** — Understanding market and management behavior
 
+## Interviews & Speeches
+
+- [[munger-caltech-2020]] — Caltech 2020: Career, Change, Technology Lessons
+- [[munger-michigan-2017]] — Michigan Ross 2017: Mental Models and Legal Training
+- [[munger-acquired]] — Acquired Podcast 2023: Berkshire Partnership and Costco
+- [[munger-djco-2013]] — Daily Journal 2013: Newspapers and the Fourth Estate
+- [[munger-crypto-ban]] — WSJ 2023: Why America Should Ban Crypto
+
 ## Further Reading
 
 - **Poor Charlie's Almanack** (2005) — Munger's lectures and writings, compiled by Peter Kaufman
