@@ -5,6 +5,7 @@ export default function Home() {
   const people = getAllPagesMeta('people')
   const concepts = getAllPagesMeta('concepts')
   const companies = getAllPagesMeta('companies')
+  const letters = getAllPagesMeta('letters')
 
   return (
     <div className="min-h-screen">
@@ -18,6 +19,7 @@ export default function Home() {
             <Link href="/people" className="nav-link">Masters</Link>
             <Link href="/concepts" className="nav-link">Concepts</Link>
             <Link href="/companies" className="nav-link">Companies</Link>
+            <Link href="/letters" className="nav-link">Letters</Link>
             <Link href="/ai" className="nav-link">AI Assistant</Link>
           </nav>
         </div>
@@ -42,10 +44,10 @@ export default function Home() {
               Ask AI Assistant
             </Link>
             <Link
-              href="/concepts"
+              href="/letters"
               className="px-6 py-3 rounded-lg font-medium border border-gray-300 transition-colors hover:border-gray-400"
             >
-              Browse Concepts
+              Read Buffett's Letters
             </Link>
           </div>
         </div>
@@ -53,18 +55,22 @@ export default function Home() {
 
       {/* Stats */}
       <section className="py-12 px-6 border-y border-gray-200 bg-gray-50">
-        <div className="max-w-6xl mx-auto grid grid-cols-3 gap-8 text-center">
+        <div className="max-w-6xl mx-auto grid grid-cols-4 gap-8 text-center">
           <div>
             <div className="text-3xl font-bold" style={{ color: '#c9a227' }}>{people.length}</div>
-            <div className="text-gray-600 text-sm mt-1">Investment Masters</div>
+            <div className="text-gray-600 text-sm mt-1">Masters</div>
           </div>
           <div>
             <div className="text-3xl font-bold" style={{ color: '#c9a227' }}>{concepts.length}</div>
-            <div className="text-gray-600 text-sm mt-1">Core Concepts</div>
+            <div className="text-gray-600 text-sm mt-1">Concepts</div>
           </div>
           <div>
             <div className="text-3xl font-bold" style={{ color: '#c9a227' }}>{companies.length}</div>
-            <div className="text-gray-600 text-sm mt-1">Company Profiles</div>
+            <div className="text-gray-600 text-sm mt-1">Companies</div>
+          </div>
+          <div>
+            <div className="text-3xl font-bold" style={{ color: '#c9a227' }}>{letters.length}</div>
+            <div className="text-gray-600 text-sm mt-1">Letters</div>
           </div>
         </div>
       </section>
@@ -72,14 +78,14 @@ export default function Home() {
       {/* Categories */}
       <section className="py-16 px-6">
         <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-4 gap-6">
             {/* Masters */}
-            <div className="border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow">
-              <h2 className="text-lg font-bold mb-4 flex items-center gap-2">
-                <span style={{ color: '#c9a227' }}>👤</span> Investment Masters
+            <div className="border border-gray-200 rounded-xl p-5 hover:shadow-lg transition-shadow">
+              <h2 className="text-base font-bold mb-3 flex items-center gap-2">
+                <span>👤</span> Masters
               </h2>
-              <ul className="space-y-2 text-sm">
-                {people.slice(0, 5).map((p) => (
+              <ul className="space-y-1.5 text-sm">
+                {people.slice(0, 4).map((p) => (
                   <li key={p.slug}>
                     <Link href={`/people/${p.slug}`} className="text-gray-600 hover:text-amber-700">
                       {p.title}
@@ -87,18 +93,18 @@ export default function Home() {
                   </li>
                 ))}
               </ul>
-              <Link href="/people" className="text-sm font-medium mt-4 inline-block" style={{ color: '#c9a227' }}>
+              <Link href="/people" className="text-xs font-medium mt-3 inline-block" style={{ color: '#c9a227' }}>
                 View all →
               </Link>
             </div>
 
             {/* Concepts */}
-            <div className="border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow">
-              <h2 className="text-lg font-bold mb-4 flex items-center gap-2">
-                <span style={{ color: '#c9a227' }}>📚</span> Core Concepts
+            <div className="border border-gray-200 rounded-xl p-5 hover:shadow-lg transition-shadow">
+              <h2 className="text-base font-bold mb-3 flex items-center gap-2">
+                <span>📚</span> Concepts
               </h2>
-              <ul className="space-y-2 text-sm">
-                {concepts.slice(0, 5).map((c) => (
+              <ul className="space-y-1.5 text-sm">
+                {concepts.slice(0, 4).map((c) => (
                   <li key={c.slug}>
                     <Link href={`/concepts/${c.slug}`} className="text-gray-600 hover:text-amber-700">
                       {c.title}
@@ -106,18 +112,18 @@ export default function Home() {
                   </li>
                 ))}
               </ul>
-              <Link href="/concepts" className="text-sm font-medium mt-4 inline-block" style={{ color: '#c9a227' }}>
+              <Link href="/concepts" className="text-xs font-medium mt-3 inline-block" style={{ color: '#c9a227' }}>
                 View all →
               </Link>
             </div>
 
             {/* Companies */}
-            <div className="border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow">
-              <h2 className="text-lg font-bold mb-4 flex items-center gap-2">
-                <span style={{ color: '#c9a227' }}>🏢</span> Company Profiles
+            <div className="border border-gray-200 rounded-xl p-5 hover:shadow-lg transition-shadow">
+              <h2 className="text-base font-bold mb-3 flex items-center gap-2">
+                <span>🏢</span> Companies
               </h2>
-              <ul className="space-y-2 text-sm">
-                {companies.slice(0, 5).map((c) => (
+              <ul className="space-y-1.5 text-sm">
+                {companies.slice(0, 4).map((c) => (
                   <li key={c.slug}>
                     <Link href={`/companies/${c.slug}`} className="text-gray-600 hover:text-amber-700">
                       {c.title}
@@ -125,7 +131,26 @@ export default function Home() {
                   </li>
                 ))}
               </ul>
-              <Link href="/companies" className="text-sm font-medium mt-4 inline-block" style={{ color: '#c9a227' }}>
+              <Link href="/companies" className="text-xs font-medium mt-3 inline-block" style={{ color: '#c9a227' }}>
+                View all →
+              </Link>
+            </div>
+
+            {/* Letters */}
+            <div className="border border-gray-200 rounded-xl p-5 hover:shadow-lg transition-shadow">
+              <h2 className="text-base font-bold mb-3 flex items-center gap-2">
+                <span>📄</span> Letters
+              </h2>
+              <ul className="space-y-1.5 text-sm">
+                {letters.slice(0, 4).map((l) => (
+                  <li key={l.slug}>
+                    <Link href={`/letters/${l.slug}`} className="text-gray-600 hover:text-amber-700">
+                      {l.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+              <Link href="/letters" className="text-xs font-medium mt-3 inline-block" style={{ color: '#c9a227' }}>
                 View all →
               </Link>
             </div>
@@ -136,18 +161,24 @@ export default function Home() {
       {/* Featured */}
       <section className="py-16 px-6 bg-gray-50">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-2xl font-bold mb-8">Featured Concepts</h2>
-          <div className="grid md:grid-cols-2 gap-6">
+          <h2 className="text-2xl font-bold mb-8">Featured Content</h2>
+          <div className="grid md:grid-cols-3 gap-6">
             <Link href="/concepts/moat" className="block p-6 bg-white rounded-xl border border-gray-200 hover:border-amber-300 transition-colors">
               <h3 className="font-bold text-lg mb-2">Economic Moat</h3>
               <p className="text-gray-600 text-sm">
-                The competitive advantage that protects a business from competitors—Buffett's most important concept.
+                The competitive advantage that protects a business from competitors.
+              </p>
+            </Link>
+            <Link href="/letters/letter-2008" className="block p-6 bg-white rounded-xl border border-gray-200 hover:border-amber-300 transition-colors">
+              <h3 className="font-bold text-lg mb-2">2008 Letter (Crisis)</h3>
+              <p className="text-gray-600 text-sm">
+                Buffett's famous crisis letter: "The Leveraging of the American Dream"
               </p>
             </Link>
             <Link href="/concepts/margin-of-safety" className="block p-6 bg-white rounded-xl border border-gray-200 hover:border-amber-300 transition-colors">
               <h3 className="font-bold text-lg mb-2">Margin of Safety</h3>
               <p className="text-gray-600 text-sm">
-                The foundational principle of value investing—buy securities at prices significantly below intrinsic value.
+                The foundational principle of value investing.
               </p>
             </Link>
           </div>

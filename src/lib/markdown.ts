@@ -7,11 +7,13 @@ import remarkGfm from 'remark-gfm'
 
 const contentDirectory = path.join(process.cwd(), 'src/content')
 
+export type WikiType = 'people' | 'concepts' | 'companies' | 'letters'
+
 export interface WikiPage {
   slug: string
   title: string
   description: string
-  type: 'people' | 'concepts' | 'companies' | 'letters'
+  type: WikiType
   tags: string[]
   created: string
   updated: string
@@ -23,7 +25,7 @@ export interface WikiMeta {
   slug: string
   title: string
   description: string
-  type: 'people' | 'concepts' | 'companies' | 'letters'
+  type: WikiType
   tags: string[]
 }
 
@@ -95,6 +97,6 @@ export function getAllPagesMeta(type: WikiPage['type']): WikiMeta[] {
 }
 
 export function getAllPages(): WikiMeta[] {
-  const types: WikiPage['type'][] = ['people', 'concepts', 'companies', 'letters']
+  const types: WikiType[] = ['people', 'concepts', 'companies', 'letters']
   return types.flatMap((type) => getAllPagesMeta(type))
 }
