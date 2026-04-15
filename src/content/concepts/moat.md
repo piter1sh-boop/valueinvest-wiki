@@ -2,121 +2,132 @@
 title: Moat (Economic Moat)
 description: The competitive advantage that protects a business from competitors, allowing it to sustain superior returns over long periods.
 type: concepts
-tags: [competitive-advantage, buffett, value-investing]
+tags: [competitive-advantage, buffett, value-investing, circle-of-competence]
 created: 2026-04-15
 updated: 2026-04-15
-source: Warren Buffett, Morningstar
+source: berkshire-hathaway-letters, morningstar-moat-ratings
 ---
 
 # Moat (Economic Moat)
 
 > "The key to investing is not assessing how much an industry is going to affect society, or how much it will grow, but rather determining the competitive advantage of any given company, and above all, the durability of that advantage."
-> — **Warren Buffett**
+> — [[warren-buffett]]
 
 An **economic moat** is a sustainable competitive advantage that protects a business from competitors, much like a medieval castle's moat protects against invaders. A company with a wide moat can maintain superior profitability for decades; one with a narrow moat faces constant erosion.
+
+The concept was popularized by [[warren-buffett|Buffett]], who made finding companies with wide moats the cornerstone of his investment approach.
+
+## Why Moats Matter
+
+The [[margin-of-safety|margin of safety]] concept from [[benjamin-graham|Graham]] focused on price — buying below intrinsic value. But [[charlie-munger|Munger]] helped Buffett realize that a wonderful business bought at a fair price outperforms a mediocre business bought at a cheap price.
+
+The reason: **a business with a wide moat can compound at high rates for decades.** A commodity business, no matter how cheap, will eventually see its returns competed away.
 
 ## Types of Moats
 
 ### 1. Intangible Assets
 **Brand, patents, regulatory licenses, or reputation that competitors cannot easily replicate.**
 
-- **Coca-Cola**: The Coca-Cola brand is valued at ~$70 billion. The brand gives pricing power and customer loyalty.
-- **Nike**: The "swoosh" and association with elite athletes create brand-driven demand.
-- ** pharmaceutical companies**: Drug patents provide 20-year exclusivity.
+| Company | Moat Type | Example |
+|---------|-----------|---------|
+| [[coca-cola]] | Brand | $70B brand value |
+| [[apple]] | Brand + Ecosystem | iOS lock-in |
+| pharmaceutical companies | Patents | 20-year exclusivity |
 
 ### 2. Cost Advantage
 **Companies that can produce or deliver goods at lower cost than competitors.**
 
-- **Walmart**: Scale enables lower procurement costs and logistics efficiency.
-- **Amazon**: Vast distribution network creates cost advantages impossible for smaller players to replicate.
-- **BNSF Railway** (Berkshire): Rail transport is significantly cheaper per ton-mile than trucking.
+- [[berkshire-hathaway|BNSF Railway]] — Rail is 3x cheaper per ton-mile than trucking
+- [[geico]] — Direct sales model cuts agent commissions
+- [[costco]] — Scale enables lower prices
 
 ### 3. Switching Costs
 **The cost (financial, psychological, time) a customer would incur to switch to a competitor.**
 
-- **Microsoft Office**: Learning Excel or PowerPoint deeply creates psychological switching costs.
-- **Banks**: Large corporate clients face enormous friction changing banking relationships.
-- **Enterprise Software**: SAP, Oracle implementations create years of training investment.
+| Company | Switching Cost |
+|---------|----------------|
+| [[microsoft-office]] | Learning curve is steep |
+| Banks (corporate) | Changing banking relationships is costly |
+| Enterprise software (SAP, Oracle) | Years of training investment |
 
 ### 4. Network Effect
 **The product becomes more valuable as more people use it.**
 
-- **Visa/Mastercard**: More merchants accept them → more consumers use them → more merchants join.
-- **Facebook/Meta**: More users make the platform more valuable for advertising.
-- **Apple iOS**: App developers target iOS because users are there; users stay because apps exist.
+| Company | Network Effect |
+|---------|----------------|
+| [[visa]], Mastercard | More merchants → more users → more merchants |
+| [[facebook]] | More users → more advertising value |
+| [[apple-ios]] | More developers → more users |
 
 ### 5. Efficient Scale
 **A niche market served so efficiently that no competitor can profitably enter.**
 
-- **Moody's**: The bond rating business has high barriers to entry—regulatory moats, data advantages, and incumbent trust.
+- [[moodys]] — Bond ratings require regulatory acceptance
+- [[berkshire-hathaway|伯克希尔的保险业务]] — Float from insurance
 
-## Narrow vs. Wide Moats
+## Moat Width
 
-| Moat Width | Description | Example |
-|------------|-------------|---------|
-| **Wide Moat** | Sustainable advantage for 20+ years | Coca-Cola brand, Apple ecosystem |
-| **Narrow Moat** | Advantage for 10-20 years | Most competitive industries |
-| **No Moat** | Commoditized, no lasting advantage | Airlines, most retailers |
+| Rating | Expected Duration | Example |
+|--------|-------------------|---------|
+| **Wide Moat** | 20+ years | [[apple]] ecosystem, [[coca-cola]] brand |
+| **Narrow Moat** | 10-20 years | Most competitive businesses |
+| **No Moat** | Commoditized | Airlines, most retailers |
 
-## How to Identify a Moat
+## Famous Moat Investments
 
-### Warren Buffett's Checklist
+| Company | Moat Type | Held Since |
+|---------|-----------|------------|
+| [[coca-cola]] | Brand | 1988 |
+| [[american-express]] | Network effect | 1960s |
+| [[sees-candies]] | Brand + loyalty | 1972 |
+| [[geico]] | Cost advantage | 1951 |
+| [[moodys]] | Regulatory moat | 1970s |
 
-1. **Brand strength**: Can you raise prices without losing customers?
-2. **Market dominance**: Is the company the leader in its category?
-3. **Customer loyalty**: What is the customer retention rate?
-4. **Competitive barriers**: What stops a well-capitalized competitor from entering?
-5. **Historical returns**: Has ROIC stayed above the cost of capital?
+## Identifying Moats
 
-### Morningstar's Moat Rating System
+### Buffett's Checklist
 
-Morningstar assigns three moat ratings:
+1. **Brand strength** — Can you raise prices without losing customers?
+2. **Market dominance** — Is the company the leader in its category?
+3. **Customer loyalty** — What is the customer retention rate?
+4. **Competitive barriers** — What stops a well-capitalized competitor from entering?
+5. **Historical returns** — Has ROIC stayed above the cost of capital?
 
-- **Wide Moat**: 20+ years of expected excess returns
-- **Narrow Moat**: 10-20 years of expected excess returns
-- **No Moat**: Competitive disadvantage or uncertain advantage
+### The Durability Question
 
-## Moat vs. Growth
-
-> "The key to investing is not assessing how much an industry is going to affect society, or how much it will grow, but rather determining the competitive advantage of any given company."
-
-A slow-growing industry with wide-moat companies often outperforms a high-growth industry with no-moat companies. **Growth is unpredictable; moat durability is more assessable.**
-
-### Example: Amazon vs. Walmart
-
-Amazon is growing faster—but does it have a wider moat than Walmart? Both have different moats:
-- Amazon: Network effect of AWS, marketplace, Prime
-- Walmart: Scale logistics, supplier relationships, real estate
-
-## The Importance of Durability
-
-Munger often said: **"Tell me where you're going to die, and I'll tell you not to go there."**
+> "Tell me where you're going to die, and I'll tell you not to go there."
+> — [[charlie-munger|Munger]]
 
 The key question is not just whether a company has a moat today, but **how durable is that moat in 10, 20, 30 years?**
 
-Industries with shrinking moats:
-- **Newspapers**: Internet destroyed advertising monopoly
-- **Mall retail**: E-commerce undercut foot traffic
-- **Cable TV**: Streaming unbundled content moats
+### Industries with Shrinking Moats
+- **Newspapers** — Internet destroyed advertising monopoly
+- **Mall retail** — E-commerce undercut foot traffic
+- **Cable TV** — Streaming unbundled content moats
 
-Industries with expanding moats:
-- **Cloud computing**: Network effects in data centers
-- **Payment networks**: More transactions = more value
+### Industries with Expanding Moats
+- **Cloud computing** — Data network effects
+- **Payment networks** — More transactions = more value
 
-## Famous Moat Holdings
+## Moat vs. Growth
 
-Buffett's most famous moat investments:
+A slow-growing industry with wide-moat companies often outperforms a high-growth industry with no-moat companies. **Growth is unpredictable; moat durability is more assessable.**
 
-| Company | Moat Type | Durability |
-|---------|-----------|------------|
-| **Coca-Cola** | Brand | 130+ years |
-| **Apple** | Ecosystem/Switching Costs | 15+ years (iOS) |
-| **American Express** | Network Effect | 170+ years |
-| **See's Candies** | Brand/Switching Costs | 100+ years |
-| **GEICO** | Cost Advantage | 85+ years |
+The best businesses have:
+1. Wide [[moat]]
+2. [[compounding|High returns on capital]]
+3. [[long-term-thinking|Long duration of competitive advantage]]
 
 ## Conclusion
 
-The **moat is the core of Buffett's investment philosophy**. Without a durable competitive advantage, a business is vulnerable to disruption, competition, and commoditization. Finding companies with wide, durable moats—and holding them for decades—is the foundation of long-term wealth creation.
+The moat is the core of [[warren-buffett|Buffett's]] investment philosophy. Without a durable competitive advantage, a business is vulnerable to disruption, competition, and commoditization.
 
 **The best time to buy a moat stock is when the market temporarily ignores it. The worst mistake is buying a "moat" that is actually narrowing.**
+
+## Related
+
+- [[warren-buffett]] — Who popularized the concept
+- [[charlie-munger]] — Who refined the approach
+- [[margin-of-safety]] — Risk management framework
+- [[circle-of-competence]] — Know what you understand
+- [[compounding]] — What moats enable

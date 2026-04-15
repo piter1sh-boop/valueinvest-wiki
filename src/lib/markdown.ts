@@ -36,10 +36,22 @@ export async function getPageBySlug(
     const fileContents = fs.readFileSync(fullPath, 'utf8')
     const { data, content } = matter(fileContents)
 
+    // Convert Obsidian-style [[links]] to markdown links
+    const contentWithLinks = content
+      .replace(/\[\[([^\]|]+)\]\]/g, (_, slug) => {
+        const displayText = slug.trim()
+        const linkSlug = slug.trim().toLowerCase().replace(/\s+/g, '-')
+        return `[${displayText}](/${linkSlug})`
+      })
+      .replace(/\[\[([^|]+)\|([^\]]+)\]\]/g, (_, slug, display) => {
+        const linkSlug = slug.trim().toLowerCase().replace(/\s+/g, '-')
+        return `[${display.trim()}](/${linkSlug})`
+      })
+
     const processedContent = await remark()
       .use(html, { sanitize: false })
       .use(remarkGfm)
-      .process(content)
+      .process(contentWithLinks)
 
     return {
       slug,
