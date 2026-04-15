@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server'
 
 // Call the buffett-api for AI responses
 
-const BUFFETT_API_URL = process.env.BUFFETT_API_URL || 'http://localhost:8000'
+const BUFFETT_API_URL = process.env.BUFFETT_API_URL || 'https://cn.valueinvest.wiki'
 
 export async function POST(request: NextRequest) {
   try {
