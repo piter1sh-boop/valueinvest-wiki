@@ -5,7 +5,7 @@ type: companies
 tags: [buffett, consumer-brand, acquisition, berkshire, long-term-holding]
 created: 2026-04-15
 updated: 2026-04-15
-source: buffett-letters, berkshire-annual-reports, sees-candies
+source: ""
 ---
 
 # See's Candies

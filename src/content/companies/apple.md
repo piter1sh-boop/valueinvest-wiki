@@ -5,7 +5,7 @@ type: companies
 tags: [buffett, technology, consumer-franchise, ecosystem-moat, capital-return]
 created: 2026-04-15
 updated: 2026-04-15
-source: buffett-letters, berkshire-13f, 2023-annual-report
+source: ""
 ---
 
 # Apple (AAPL)

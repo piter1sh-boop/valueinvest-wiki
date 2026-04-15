@@ -5,7 +5,7 @@ type: concepts
 tags: [value-investing, warren-buffett, independent-thinking, market-psychology]
 created: 2026-04-15
 updated: 2026-04-15
-source: buffett-letters, security-analysis, intelligent-investor
+source: ""
 ---
 
 # Contrarian Investing

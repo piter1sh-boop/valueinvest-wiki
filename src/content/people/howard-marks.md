@@ -5,7 +5,7 @@ type: people
 tags: [value-investing, oaktree, risk-management, market-psychology]
 created: 2026-04-15
 updated: 2026-04-15
-source: the-most-important-thing, oakmark-letters, buffett-letters
+source: ""
 ---
 
 # Howard Marks (1948- )

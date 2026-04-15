@@ -5,7 +5,7 @@ type: concepts
 tags: [benjamin-graham, market-psychology, value-investing, long-term-thinking]
 created: 2026-04-15
 updated: 2026-04-15
-source: security-analysis, intelligent-investor, 2008-letter
+source: ""
 ---
 
 # Mr. Market

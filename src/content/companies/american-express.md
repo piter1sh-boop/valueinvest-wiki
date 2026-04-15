@@ -5,7 +5,7 @@ type: companies
 tags: [buffett, payments, network-effect, brand, long-term-holding]
 created: 2026-04-15
 updated: 2026-04-15
-source: buffett-letters, berkshire-13f, historical-investments
+source: ""
 ---
 
 # American Express (AXP)

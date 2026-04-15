@@ -5,7 +5,7 @@ type: concepts
 tags: [warren-buffett, long-term-thinking, returns, capital-allocation]
 created: 2026-04-15
 updated: 2026-04-15
-source: buffett-letters, shareholder-meetings, poor-charlies-almanack
+source: ""
 ---
 
 # Compounding

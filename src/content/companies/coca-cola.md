@@ -5,7 +5,7 @@ type: companies
 tags: [buffett, brand-moat, consumer-staples, dividend-aristocrat, long-term-holding]
 created: 2026-04-15
 updated: 2026-04-15
-source: buffett-letters, berkshire-hathaway, 13f-filings
+source: ""
 ---
 
 # Coca-Cola (KO)

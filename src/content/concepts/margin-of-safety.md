@@ -5,7 +5,7 @@ type: concepts
 tags: [value-investing, benjamin-graham, risk-management, intrinsic-value]
 created: 2026-04-15
 updated: 2026-04-15
-source: security-analysis, intelligent-investor
+source: ""
 ---
 
 # Margin of Safety

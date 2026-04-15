@@ -5,7 +5,7 @@ type: people
 tags: [growth-investing, scuttlebutt, long-term-thinking, quality]
 created: 2026-04-15
 updated: 2026-04-15
-source: common-stocks-uncommon-profits, buffett-letters
+source: ""
 ---
 
 # Philip Fisher (1907-2004)

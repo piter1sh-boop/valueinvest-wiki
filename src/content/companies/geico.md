@@ -5,7 +5,7 @@ type: companies
 tags: [buffett, insurance, direct-sales, float, competitive-advantage]
 created: 2026-04-15
 updated: 2026-04-15
-source: buffett-letters, berkshire-annual-reports, geico-history
+source: ""
 ---
 
 # GEICO

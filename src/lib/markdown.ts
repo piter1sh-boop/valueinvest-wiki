@@ -7,7 +7,27 @@ import remarkGfm from 'remark-gfm'
 
 const contentDirectory = path.join(process.cwd(), 'src/content')
 
-export type WikiType = 'people' | 'concepts' | 'companies' | 'letters'
+export type WikiType = 'people' | 'concepts' | 'companies' | 'letters' | 'interviews' | 'articles' | 'partnership-letters' | 'meetings'
+
+// Build a complete slug -> section mapping for wiki-link resolution
+function buildSlugMapping(): Record<string, string> {
+  const mapping: Record<string, string> = {}
+  const types: WikiType[] = ['people', 'concepts', 'companies', 'letters', 'interviews', 'articles', 'partnership-letters', 'meetings']
+
+  for (const type of types) {
+    const dirPath = path.join(contentDirectory, type)
+    if (fs.existsSync(dirPath)) {
+      const files = fs.readdirSync(dirPath).filter(f => f.endsWith('.md') && f !== 'index.md')
+      for (const file of files) {
+        const slug = file.replace(/\.md$/, '')
+        mapping[slug] = type
+      }
+    }
+  }
+  return mapping
+}
+
+const slugToSection = buildSlugMapping()
 
 export interface WikiPage {
   slug: string
@@ -39,14 +59,38 @@ export async function getPageBySlug(
     const { data, content } = matter(fileContents)
 
     // Convert Obsidian-style [[links]] to markdown links
+    // Known prefixes for content types (slugs that need type-based routing)
+    const knownPrefixes: Record<string, string> = {
+      'letter': 'letters',
+      'partnership-letter': 'partnership-letters',
+      'meeting': 'meetings',
+      'munger': 'interviews',
+    }
+
     const contentWithLinks = content
       .replace(/\[\[([^\]|]+)\]\]/g, (_, slug) => {
         const displayText = slug.trim()
         const linkSlug = slug.trim().toLowerCase().replace(/\s+/g, '-')
+        // Check if this slug is in our mapping
+        if (slugToSection[linkSlug]) {
+          return `[${displayText}](/${slugToSection[linkSlug]}/${linkSlug})`
+        }
+        // Check if this slug has a known prefix that needs special routing
+        const prefix = Object.keys(knownPrefixes).find(p => linkSlug.startsWith(p + '-'))
+        if (prefix) {
+          return `[${displayText}](/${knownPrefixes[prefix]}/${linkSlug})`
+        }
         return `[${displayText}](/${linkSlug})`
       })
       .replace(/\[\[([^|]+)\|([^\]]+)\]\]/g, (_, slug, display) => {
         const linkSlug = slug.trim().toLowerCase().replace(/\s+/g, '-')
+        if (slugToSection[linkSlug]) {
+          return `[${display.trim()}](/${slugToSection[linkSlug]}/${linkSlug})`
+        }
+        const prefix = Object.keys(knownPrefixes).find(p => linkSlug.startsWith(p + '-'))
+        if (prefix) {
+          return `[${display.trim()}](/${knownPrefixes[prefix]}/${linkSlug})`
+        }
         return `[${display.trim()}](/${linkSlug})`
       })
 

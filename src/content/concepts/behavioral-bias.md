@@ -5,7 +5,7 @@ type: concepts
 tags: [psychology, cognitive-bias, value-investing, warren-buffett, chalie-munger]
 created: 2026-04-15
 updated: 2026-04-15
-source: intelligent-investor, buffett-letters, psychology-of-money, poor-charlies-almanack
+source: ""
 ---
 
 # Behavioral Bias

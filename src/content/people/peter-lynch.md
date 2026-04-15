@@ -5,7 +5,7 @@ type: people
 tags: [mutual-fund, growth-investing, tenbagger, individual-investor]
 created: 2026-04-15
 updated: 2026-04-15
-source: one-up-on-wall-street, beating-the-street, buffett-letters
+source: ""
 ---
 
 # Peter Lynch (1944-2023)

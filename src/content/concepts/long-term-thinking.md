@@ -5,7 +5,7 @@ type: concepts
 tags: [warren-buffett, patience, compounding, time-horizon, value-investing]
 created: 2026-04-15
 updated: 2026-04-15
-source: buffett-letters, shareholder-meetings, berkshire-annual-meetings
+source: ""
 ---
 
 # Long-Term Thinking

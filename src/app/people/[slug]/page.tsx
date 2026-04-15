@@ -2,6 +2,32 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getPageBySlug, getAllPagesMeta } from '@/lib/markdown'
 
+// Helper to parse wiki-links like [[letter-2008]], [[letter-2009]]
+function parseWikiLinks(source: string): { text: string, href: string }[] {
+  const regex = /\[\[([^\]]+)\]\]/g
+  const links: { text: string, href: string }[] = []
+  let match
+  while ((match = regex.exec(source)) !== null) {
+    const slug = match[1]
+    // Determine the section based on the slug
+    let section = 'letters'
+    if (slug.startsWith('letter-')) {
+      section = 'letters'
+    } else if (slug.startsWith('person-')) {
+      section = 'people'
+    } else if (slug.startsWith('company-')) {
+      section = 'companies'
+    } else if (slug.startsWith('concept-')) {
+      section = 'concepts'
+    }
+    links.push({
+      text: slug,
+      href: `/${section}/${slug}`
+    })
+  }
+  return links
+}
+
 export async function generateStaticParams() {
   const people = getAllPagesMeta('people')
   return people.map((p) => ({ slug: p.slug }))
@@ -15,6 +41,8 @@ export default async function PersonPage({ params }: { params: Promise<{ slug: s
     notFound()
   }
 
+  const sourceLinks = page.source ? parseWikiLinks(page.source) : []
+
   return (
     <div className="min-h-screen">
       <header className="border-b border-gray-200 bg-white sticky top-0 z-50">
@@ -26,6 +54,8 @@ export default async function PersonPage({ params }: { params: Promise<{ slug: s
             <Link href="/people" className="nav-link font-bold" style={{ color: '#c9a227' }}>Masters</Link>
             <Link href="/concepts" className="nav-link">Concepts</Link>
             <Link href="/companies" className="nav-link">Companies</Link>
+            <Link href="/interviews" className="nav-link">Interviews</Link>
+            <Link href="/articles" className="nav-link">Articles</Link>
             <Link href="/ai" className="nav-link">AI Assistant</Link>
           </nav>
         </div>
@@ -51,6 +81,23 @@ export default async function PersonPage({ params }: { params: Promise<{ slug: s
               </span>
             ))}
           </div>
+
+          {sourceLinks.length > 0 && (
+            <div className="mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
+              <span className="text-sm font-medium text-gray-700">Referenced in: </span>
+              <div className="flex gap-2 flex-wrap mt-2">
+                {sourceLinks.map((link, i) => (
+                  <Link
+                    key={i}
+                    href={link.href}
+                    className="text-sm px-3 py-1 rounded bg-blue-100 text-blue-700 hover:bg-blue-200"
+                  >
+                    {link.text}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
 
           <div
             className="wiki-content"

@@ -5,7 +5,7 @@ type: concepts
 tags: [warren-buffett, cognitive-limits, self-awareness, investing]
 created: 2026-04-15
 updated: 2026-04-15
-source: buffett-letters, shareholder-meetings, poor-charlies-almanack
+source: ""
 ---
 
 # Circle of Competence

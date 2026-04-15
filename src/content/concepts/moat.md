@@ -5,7 +5,7 @@ type: concepts
 tags: [competitive-advantage, buffett, value-investing, circle-of-competence]
 created: 2026-04-15
 updated: 2026-04-15
-source: berkshire-hathaway-letters, morningstar-moat-ratings
+source: ""
 ---
 
 # Moat (Economic Moat)

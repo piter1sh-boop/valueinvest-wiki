@@ -5,7 +5,7 @@ type: concepts
 tags: [risk-management, value-investing, warren-buffett, probability]
 created: 2026-04-15
 updated: 2026-04-15
-source: buffett-letters, poor-charlies-almanack, intelligent-investor
+source: ""
 ---
 
 # Asymmetric Risk

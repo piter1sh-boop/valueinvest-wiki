@@ -5,7 +5,7 @@ type: people
 tags: [berkshire, mental-models, latticework, psychological, multidisciplinary]
 created: 2026-04-15
 updated: 2026-04-15
-source: poor-charlies-almanack, berkshire-hathaway
+source: ""
 ---
 
 # Charlie Munger

@@ -15,6 +15,8 @@ export default function ConceptsPage() {
             <Link href="/people" className="nav-link">Masters</Link>
             <Link href="/concepts" className="nav-link font-bold" style={{ color: '#c9a227' }}>Concepts</Link>
             <Link href="/companies" className="nav-link">Companies</Link>
+            <Link href="/interviews" className="nav-link">Interviews</Link>
+            <Link href="/articles" className="nav-link">Articles</Link>
             <Link href="/ai" className="nav-link">AI Assistant</Link>
           </nav>
         </div>

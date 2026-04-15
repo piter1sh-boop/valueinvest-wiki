@@ -5,7 +5,7 @@ type: people
 tags: [value-investing, security-analysis, margin-of-safety, intellectual-father]
 created: 2026-04-15
 updated: 2026-04-15
-source: security-analysis, intelligent-investor, buffett-letters
+source: ""
 ---
 
 # Benjamin Graham (1894-1976)

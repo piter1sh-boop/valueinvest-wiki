@@ -5,7 +5,7 @@ type: concepts
 tags: [value-investing, warren-buffett, fundamental-analysis, dcf]
 created: 2026-04-15
 updated: 2026-04-15
-source: buffett-letters, intelligent-investor, security-analysis
+source: ""
 ---
 
 # Intrinsic Value

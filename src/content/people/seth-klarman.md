@@ -5,7 +5,7 @@ type: people
 tags: [value-investing, baupost, concentrated-portfolio, margin-of-safety]
 created: 2026-04-15
 updated: 2026-04-15
-source: margin-of-safety, baupost-letters, buffett-letters
+source: ""
 ---
 
 # Seth Klarman (1957- )

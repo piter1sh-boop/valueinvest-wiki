@@ -5,7 +5,7 @@ type: companies
 tags: [buffett, bank, value-investing, margin-of-safety, long-term-holding]
 created: 2026-04-15
 updated: 2026-04-15
-source: buffett-letters, berkshire-13f, margin-of-safety
+source: ""
 ---
 
 # Wells Fargo & Company

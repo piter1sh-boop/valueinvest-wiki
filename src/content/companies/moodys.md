@@ -5,7 +5,7 @@ type: companies
 tags: [buffett, rating-agency, regulatory-moat, moat, long-term-holding]
 created: 2026-04-15
 updated: 2026-04-15
-source: buffett-letters, berkshire-historical, annual-reports
+source: ""
 ---
 
 # Moody's Corporation (MCO)

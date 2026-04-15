@@ -5,7 +5,7 @@ type: concepts
 tags: [warren-buffett, berkshire-hathaway, management, shareholder-value]
 created: 2026-04-15
 updated: 2026-04-15
-source: buffett-letters, shareholder-meetings, chairman-letters
+source: ""
 ---
 
 # Capital Allocation

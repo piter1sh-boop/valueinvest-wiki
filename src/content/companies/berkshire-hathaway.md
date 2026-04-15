@@ -5,7 +5,7 @@ type: companies
 tags: [buffett, insurance, float, holding-company, new-york-stock-exchange]
 created: 2026-04-15
 updated: 2026-04-15
-source: berkshire-hathaway-annual-report, berkshire-hathaway.com
+source: ""
 ---
 
 # Berkshire Hathaway
