@@ -7,12 +7,12 @@ import remarkGfm from 'remark-gfm'
 
 const contentDirectory = path.join(process.cwd(), 'src/content')
 
-export type WikiType = 'people' | 'concepts' | 'companies' | 'letters' | 'interviews' | 'articles' | 'partnership-letters' | 'meetings'
+export type WikiType = 'people' | 'concepts' | 'companies' | 'letters' | 'interviews' | 'articles' | 'partnership-letters' | 'meetings' | 'books'
 
 // Build a complete slug -> section mapping for wiki-link resolution
 function buildSlugMapping(): Record<string, string> {
   const mapping: Record<string, string> = {}
-  const types: WikiType[] = ['people', 'concepts', 'companies', 'letters', 'interviews', 'articles', 'partnership-letters', 'meetings']
+  const types: WikiType[] = ['people', 'concepts', 'companies', 'letters', 'interviews', 'articles', 'partnership-letters', 'meetings', 'books']
 
   for (const type of types) {
     const dirPath = path.join(contentDirectory, type)
