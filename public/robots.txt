@@ -1,0 +1,5 @@
+# https://valueinvest.wiki/robots.txt
+User-agent: *
+Allow: /
+
+Sitemap: https://valueinvest.wiki/sitemap.xml
