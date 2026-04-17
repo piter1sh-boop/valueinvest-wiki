@@ -1,276 +1,272 @@
 ---
-title: '投资的共识与分歧：Fundsmith 2025年度股东大会实录'
-description: '基于英国最大股票基金经理Terry Smith的2025年度股东大会，探讨主动投资与被动投资的争论、估值、质量投资、激励机制等核心议题'
+title: 'Consensus and Disagreements in Investing: Fundsmith 2025 AGM'
+description: 'Key insights from Terry Smith and Julian Robbins at the Fundsmith 2025 Annual Shareholder Meeting, covering passive investing distortions, valuation, GLP-1 drugs, and incentive structures'
 type: articles
 tags: [fundsmith, terry-smith, active-investing, passive-investing, value-investing, quality-investing, 2025]
 created: 2026-04-17
 updated: 2026-04-17
-source: https://mp.weixin.qq.com/s/DN-Ja3xUMeDtls9MOF8nnA
+source: https://steadycompounding.com/transcript/fundsmith25/
 ---
 
-# 投资的共识与分歧
+# Consensus and Disagreements in Investing
 
-## Fundsmith 2025年度股东大会实录
+## Fundsmith 2025 Annual Shareholder Meeting
 
-**作者：IN咖（精译）| 2025年3月31日**
-
----
-
-## 特里·史密斯：英国巴菲特的困惑
-
-2025年2月25日，巴菲特股东信发布的第二天，Fundsmith举行了第十四届年度股东大会。
-
-Fundsmith是英国最大的股票基金，规模超过270亿英镑（约合人民币2500亿）。自2010年成立以来，创始人特里·史密斯（Terry Smith）通过投资全球优质企业，年均回报率达14.8%，累计跑赢MSCI全球指数超过200个百分点。
-
-这场100分钟的股东会，是一场关于**投资共识与分歧**的思想碰撞。
+**Transcribed by Thomas Chua | March 16, 2025**
 
 ---
 
-## 一、共识：被动投资已经严重扭曲市场
+## Terry Smith: The British Buffett's Dilemma
 
-### 约翰·博格的预言成真
+On February 25, 2025, the day after Buffett's shareholder letter, Fundsmith held its 14th Annual Shareholder Meeting.
 
-特里·史密斯在开场演讲中坦承：
+Fundsmith is the UK's largest equity fund, managing over £27 billion (~RMB 250 billion). Since its founding in 2010, founder Terry Smith has delivered annualized returns of 15.2%, outperforming the MSCI World Index by over 200 percentage points cumulatively.
 
-> "到2023年，全球超过50%的资产已流入被动基金，这对市场表现产生了很大的扭曲。"
-
-而博格在2017年伯克希尔股东会上接受采访时说过：
-
-> "如果指数基金占资产管理总量的比例达到某个临界点，会不会扭曲市场？——是的，必然会。"
-
-博格当时无法给出具体数字，但今天，史密斯认为这个临界点早已被突破。
-
-### 被动投资：一种"动量策略"
-
-史密斯提出了一个反直觉的观点：
-
-> "指数投资其实并不是一种真正的'被动'策略。它的'被动'仅仅体现为没有基金经理去进行主动决策，只是由电脑程序自动追踪指数成分股。实际上，指数投资是一种'动量策略'，因为市值越大的股票，获得的资金流入就越多，久而久之自然推高了这些股票的价格。"
-
-更严重的是：
-
-> "资金从主动投资流向被动投资这个'流动的过程'本身——就会造成市场严重扭曲。你把资金从持有英伟达的主动基金转到持仓比例极高的指数基金时，英伟达的股价就会上涨。"
-
-这正是当前市场巨大扭曲的主要因素之一。
-
-### 证据：两条标普500曲线的惊人差距
-
-史密斯展示了一张过去两年的图表：
-
-- **红线**：按市值加权的标普500（苹果、微软、英伟达等大权重股涨幅更大）
-- **灰线**：等权重标普500（每家公司权重相同）
-
-两条线的表现差距非常惊人。高度集中在前几只大市值股票。
+This 100-minute meeting is a collision of **investment consensus and disagreements**.
 
 ---
 
-## 二、共识：估值不是选股第一考量，但也不能忽视
+## I. Consensus: Passive Investing Has Severely Distorted Markets
 
-史密斯直言：
+### Bogle's Prophecy Confirmed
 
-> "我们首先关注的是企业的质量，但我们也不能彻底忽视估值。"
+Terry Smith opened with a candid admission:
 
-他坦承对当前持仓的一些估值"并不满意"：
+> "During 2023, more than 50% of assets under management worldwide were in passive funds, creating distortions."
 
-| 公司 | 市盈率 | 史密斯态度 |
-|------|--------|---------|
-| 英伟达 | 53倍 | 不满意 |
-| 微软 | 38倍 | 不满意 |
-| 亚马逊 | 45倍 | 让人难受 |
-| Meta | 24倍 | 感觉还行 |
-| Alphabet | 26倍 | 感觉还行 |
-| 特斯拉 | 99倍 | "别指望我会参与" |
+Bogle stated in a 2017 Berkshire Hathaway interview:
 
-> "它只是一家汽车公司。"
+> "If index funds reach a certain proportion of total assets under management, will they distort markets? — Yes, inevitably."
 
-对于苹果，Smith评价最为复杂：
+Bogle couldn't give a specific number at the time, but Smith believes that threshold was long ago surpassed.
 
-> "当初我们买入苹果时的估值只有现在的一半。后来苹果的估值翻倍了，但公司两年来的销售增长却是零。这使我们很难理解估值为何能翻倍。"
+### Passive Investing: A "Momentum Strategy"
 
----
+Smith offered a counterintuitive view:
 
-## 三、共识：回报高度集中不只是美国现象
+> "Index investing is only passive in that there's no fund manager involved — it's actually a momentum-based strategy. Money going into index funds is allocated based on market weight, meaning the biggest companies get most of the inflows, boosting their share prices further."
 
-> "看看德国DAX指数。过去一年中，SAP贡献了DAX指数回报的41%。除了排名靠前的几家公司以外，其他所有公司合计只贡献了2%的回报。"
+More seriously:
 
-这意味着：如果你没有持有SAP，你根本无法跑赢德国DAX指数。
+> "The flow between active and passive funds itself causes severe market distortion. When you move money from active funds holding Nvidia to index funds with high Nvidia exposure, Nvidia's stock price rises."
 
----
+This is one of the main factors behind today's massive market distortions.
 
-## 四、分歧：主动投资是否已走到尽头？
+### Evidence: Two S&P 500 Curves' Startling Divergence
 
-### 里奇定律的测试
+Smith showed a chart of the past two years:
 
-每当有人问"某件事是否走到了尽头？"这类问题时，答案通常是"不"。
+- **Red line**: Market-cap-weighted S&P 500 (Apple, Microsoft, Nvidia gains amplified)
+- **Gray line**: Equal-weight S&P 500 (each company has equal weight)
 
-以下是几个里奇定律的验证：
-
-- 债券市场能驯服特朗普吗？**不能**
-- 欧洲会向乌克兰派遣地面部队吗？**不会**
-- 你的公司需要首席价值官吗？**当然不需要**
-- 法国能否成为全球AI大国？**显然不能**
-
-### 结论
-
-> "主动管理的游戏结束了吗？"——**不，主动管理并未结束。我们只是处于一段相当艰难的时期。**
-
-但史密斯也承认：
-
-> "任何一位称职的主动管理者，内心都有一个梦想，就是最终成为市场上仅存的主动管理者。当所有其他资金都不再关注公司质量和估值，只是机械地跟随指数时，真正机会才会来临。问题是，在达到那个理想状态之前，这段过程非常痛苦。而且，你必须在这个过程中生存下来，才能最终享受胜利的果实。"
-
-历史上，许多被市场视为错误的投资者，最终证明是对的，但遗憾的是他们没能坚持到最后——比如"末日博士"托尼·戴伊，在互联网泡沫前被解雇，而几乎就在他被解雇的当天，互联网泡沫破灭了。
+The performance gap between the two is staggering — concentration in just a handful of large-cap stocks.
 
 ---
 
-## 五、特里与朱利安的精彩对话
+## II. Consensus: Valuation Matters, But Quality Comes First
 
-### 特朗普关税：影响被高估
+Smith was direct:
 
-有股东问及特朗普关税对组合的影响。
+> "We only invest in good companies, try not to overpay, and do nothing."
 
-> "2017年特朗普首次大规模征收关税时，对市场整体回报几乎没有产生任何显著影响。我们完全不知道他会怎么做——事实上特朗普自己可能也不知道。"
+He acknowledged discomfort with some current valuations:
 
-> "预测显然没什么帮助。"
+| Company | P/E Ratio | Smith's View |
+|---------|-----------|--------------|
+| Nvidia | 53x | Unsatisfied |
+| Microsoft | 38x | Unsatisfied |
+| Amazon | 45x | Uncomfortable |
+| Meta | 24x | Acceptable |
+| Alphabet | 26x | Acceptable |
+| Tesla | 99x | "I won't participate" |
 
-他们更关注的，是真正驱动公司业绩的日常因素：
+> "It's just a car company."
 
-> "今天早上你有没有刷牙？你喂了宠物了吗？你喝什么饮料？你有什么医疗需求？日常通讯或IT方面，你每天用的是什么服务或产品？"
+On Apple, Smith's assessment was most complex:
 
-### 政客是否过于担心市场反应？
-
-> 提问者：市场被奉为圣经——如果市场反应糟糕，那政策一定是错误的。
-
-史密斯回应时引用了比尔·克林顿首席战略师詹姆斯·卡维尔的话：
-
-> "我以前以为如果有来生，我想做总统、教皇或棒球击球率四成的选手，但现在我想做债券市场。因为债券市场能恐吓每一个人。"
-
-> "政府掌握印钞机，真正能约束政府的只有两个力量：一个是债券市场，另一个是外汇市场。这两大市场对政府是一种非常重要的约束机制。"
-
----
-
-## 六、减肥药的影响：被低估的结构性变革
-
-### Novo Nordisk：持仓中最具争议的公司
-
-Fundsmith目前持有Novo Nordisk（诺和诺德）的数据：
-
-| 指标 | 数据 |
-|------|------|
-| 2024年营收 | 2900亿丹麦克朗 |
-| 营收增长 | ~25%（未来可能维持20%+） |
-| 毛利率 | 85% |
-| 营业利润率 | 44% |
-| 投资回报率(ROIC) | 69% |
-| 市盈率 | 28倍 |
-| 自由现金流收益率 | 27% |
-
-作为对比：竞争对手礼来的市盈率是**75倍**。
-
-### 减肥药对消费品的颠覆
-
-对于帝亚吉欧的卖出，原因是多方面的：
-
-**第一，GLP-1减肥药的影响**
-
-> "服用减肥药的家庭在饮酒方面的消费明显减少。我们已经拥有了连续两年、来自美国15万个家庭的数据。"
-
-**第二，大麻合法化**
-
-> "很多人喝酒是为了酒精带来的放松和愉悦感，而大麻在合法化后，作为替代品越来越受欢迎。"
-
-**第三，Z世代的饮酒习惯**
-
-| 代际 | 美国酒精消费额 |
-|------|-------------|
-| 婴儿潮一代 | 250亿美元 |
-| X世代 | 230亿美元 |
-| 千禧一代 | 230亿美元 |
-| Z世代 | 31亿美元 |
-
-Z世代被称为"好奇戒酒一代"。
+> "When we first bought Apple, its valuation was half what it is now. Apple subsequently doubled in valuation, but the company's sales growth over two years was zero. It's hard for us to understand why the valuation doubled."
 
 ---
 
-## 七、激励机制：芒格的启示
+## III. Consensus: Concentration of Returns Is Not Just a US Phenomenon
 
-> "给我看激励机制，我就能告诉你结果。" —— 查理·芒格
+> "In the German DAX, SAP contributed 41% of the index return. Apart from the top few companies, all others combined contributed only 2% of returns."
 
-### 错误的激励结构示例
-
-**耐克**选择的"同行对标公司"：美国运通、可口可乐、金佰利、迪士尼（而非阿迪达斯）
-
-**雅诗兰黛**选择的"同行对标公司"：强生、金佰利、耐克（而非欧莱雅）
-
-> "欧洲CEO薪酬普遍低于美国公司。挑选这些'同行'，绝非偶然。"
-
-### 真正的激励矩阵
-
-| 组合 | 含义 |
-|------|------|
-| 高ROIC + 高增长 | **真正的优质公司** |
-| 高ROIC + 低增长 | 现金牛（只能持续派息） |
-| 低ROIC + 低增长 | 彻底的差公司 |
-| 低ROIC + 高增长 | **价值毁灭**（不断投入却毁灭价值，如航空公司） |
-
-### EPS激励的错误
-
-如果管理层薪酬基于EPS增长，而没有考虑资本回报率——
-
-> "你完全可以不为股东创造任何真实价值，就实现EPS增长。你每年留存75%的利润再投资，每股盈利就能每年稳稳增长5%——但实际上，这种增长并没有创造任何真正的价值。"
-
-**好的激励机制**：联合利华的方案
-- 短期：40%有机销售增长 + 30% EBIT增长 + 30%自由现金流
-- 长期：同时包含增长和ROIC两个指标
+This means: if you didn't hold SAP, you couldn't outperform the German DAX index.
 
 ---
 
-## 八、分红还是留存复利？
+## IV. Disagreement: Has Active Investing Come to an End?
 
-> "优秀的公司会把利润留在内部'滚雪球'，这才是复利真正的力量。" —— 特里·史密斯
+### Testing Betteridge's Law
 
-### 伯克希尔的极端案例
+Whenever someone asks "Has X come to an end?", the answer is usually "no."
 
-巴菲特1967年只发过一次股息——每股10美分，总共101,755美元。
+Examples of Betteridge's Law in action:
 
-> "如果当时没有支付那笔股息，而是把那笔钱保留在公司里用于再投资，今天那笔钱大概值多少？——31亿美元。"
+- Can the bond market tame Trump? **No**
+- Will Europe send ground troops to Ukraine? **No**
+- Does your company need a Chief Value Officer? **Certainly not**
+- Can France become a global AI power? **Clearly not**
 
-### 史密斯对"股息刚需"的回应
+### Conclusion
 
-> "有些财务顾问和'收益型基金经理'，反驳我说：'不对，股息才是股票赚钱的正道！'当一家公司把一半利润发成股息的时候，那其实就等于是你'卖出了一半的收益'！这难道不是一样的吗？"
+> "Has the game of active management ended?" — **No, active management has not ended. We're just in a rather difficult period.**
 
----
+But Smith also acknowledged:
 
-## 九、投资中的共识与分歧清单
+> "Any active manager worth their salt dreams of being the last one standing when all other money is invested without consideration of quality or valuation. The challenge is surviving long enough to reap those benefits."
 
-| 共识 | 分歧/未解 |
-|------|-----------|
-| 被动投资已严重扭曲市场 | 何时逆转无法预测 |
-| 估值过高影响未来回报 | 但无法择时 |
-| 质量是选股第一标准 | "质量"的定义随时代演变 |
-| 特朗普关税影响被高估 | 短期波动难以预测 |
-| 减肥药将颠覆消费品 | 竞争格局未定 |
-| 激励机制决定一切 | 完美激励结构几乎不存在 |
-| 复利留存在内部优于分红 | 投资者需要现金流的现实需求 |
+Historically, many investors deemed "wrong" by the market ultimately proved correct — but unfortunately didn't survive to enjoy the victory. Tony Dye, the "Doomster," was fired just before the internet bubble burst on the very day he was dismissed.
 
 ---
 
-## 十、最有价值的观点
+## V. Terry and Julian's Brilliant Dialogue
 
-**特里·史密斯最认同的一句话：**
+### Trump Tariffs: Impact Overstated
 
-> "我以前在UBS旗下工作时，有位叫彼得·汤普森的同事在1987年8月撰写了一份研究报告，题为'市场风暴预警'。报告中，他指出美元疲软以及利率上涨风险。
+A shareholder asked about Trump tariffs on the portfolio (70%+ invested in US stocks).
 
-> 随后发生了著名的股市崩盘22%的飓风事件。就在飓风肆虐达到顶峰的同一天，美国股市崩盘。
+> "In 2017, at the height of the previous Trump tariff comments, it didn't make a blind bit of difference to market returns. We don't know what he's going to do — in fact, Trump probably doesn't know either."
 
-> 我们正坐在办公室，亲眼目睹了整个过程。"
+> "Forecasting clearly isn't helpful."
 
-**这告诉我们**：市场确实很重要，市场作为一个整体所具备的"集体智慧"和"无形之手"，经常能引导我们做出正确的决定。
+They focus instead on what truly drives company performance:
 
-**而最值得记住的分歧是：**
+> "Did you brush your teeth this morning? What are you drinking? What's your medical condition? What are you using for everyday communications? What services or products do you use daily?"
 
-> "我无法预测这种趋势何时会逆转。你们可以从市场表现中清晰地看到这一现象的具体体现。"
+### Are Politicians Too Worried About Market Reactions?
 
-——承认自己无法预测，本身就是投资智慧的一部分。
+> Questioner: Markets are treated as gospel — if market reaction is bad, the policy must be wrong.
+
+Smith quoted James Carville, Bill Clinton's chief strategist:
+
+> "I used to think if there was reincarnation, I wanted to come back as the president, the Pope, or a 400 baseball hitter, but now I want to come back as the bond market. You can intimidate everybody."
+
+> "Governments control the printing press. The only two forces that truly constrain governments are the bond market and the foreign exchange market. These two markets serve as important checks on government behavior."
 
 ---
 
-*本文精译自Fundsmith 2025年度股东大会，版权归IN咖（ID: Insight_daka）所有。*
+## VI. GLP-1 Drugs' Impact: A Underestimated Structural Change
+
+### Novo Nordisk: The Portfolio's Most Controversial Holding
+
+Fundsmith's current Novo Nordisk data:
+
+| Metric | Data |
+|--------|------|
+| 2024 Revenue | 290 billion DKK |
+| Revenue Growth | ~25% (likely maintaining 20%+ in future) |
+| Gross Margin | 85% |
+| Operating Margin | 44% |
+| Return on Capital (ROIC) | 69% |
+| P/E Ratio | 28x |
+| Free Cash Flow Yield | 27% |
+
+For comparison: competitor Eli Lilly trades at **75x P/E**.
+
+### The Disruption GLP-1 Drugs Are Bringing to Consumer Goods
+
+The reason for selling Diageo is multifaceted:
+
+**First, GLP-1 weight loss drugs' impact**
+
+> "Households using weight loss drugs have significantly reduced alcohol consumption. We have two consecutive years of data from 150,000 US households."
+
+**Second, marijuana legalization**
+
+> "Many people drink for the relaxation and pleasure that alcohol provides. With marijuana legalization, it's becoming an increasingly popular alternative."
+
+**Third, Generation Z's drinking habits**
+
+| Generation | US Alcohol Consumption |
+|------------|----------------------|
+| Baby Boomers | $25 billion |
+| Gen X | $23 billion |
+| Millennials | $23 billion |
+| Gen Z | $3.1 billion |
+
+Gen Z is called the "sober curious generation."
+
+---
+
+## VII. Incentive Mechanisms: Munger's Enlightenment
+
+> "Show me the incentive and I'll show you the outcome." — Charlie Munger
+
+### Examples of Wrong Incentive Structures
+
+**Nike's "peer group":** American Express, Coca-Cola, Kimberly Clark, Disney (not Adidas or Puma)
+
+**Estée Lauder' peer group:** Johnson & Johnson, Kimberly Clark (not L'Oréal)
+
+> "European CEOs are generally paid less than US companies. Selecting these 'peers' is no coincidence."
+
+### The Real Incentive Matrix
+
+| Combination | Meaning |
+|-------------|---------|
+| High ROIC + High Growth | **Truly优质公司** |
+| High ROIC + Low Growth | Cash cow (can only sustain dividends) |
+| Low ROIC + Low Growth | Completely terrible company |
+| Low ROIC + High Growth | **Value destruction** (endless investment destroying value, like airlines) |
+
+### The Problem with EPS Incentives
+
+If management compensation is based on EPS growth without considering return on capital —
+
+> "You can achieve EPS growth without creating any real value for shareholders. You retain 75% of profits annually for reinvestment, and earnings per share will steadily grow 5% per year — but this growth creates no actual value."
+
+**The good incentive structure:** Unilever's approach
+- Short-term: 40% organic sales growth + 30% EBIT growth + 30% free cash flow
+- Long-term: Includes both growth and ROIC metrics
+
+---
+
+## VIII. Dividends vs. Retained Compounding?
+
+> "Good companies keep profits internally to 'roll the snowball' — this is the true power of compounding." — Terry Smith
+
+### Berkshire Hathaway's Extreme Case
+
+Berkshire paid dividends only once in 1967 — 10 cents per share, totaling $10,755.
+
+> "Had that money not been paid out and kept in Berkshire, the $11,000 would now be worth $3.1 billion."
+
+### Smith's Response to "Dividend Necessity"
+
+> "Some financial advisors and 'yield fund managers' argue with me: 'No, dividends are the right way to make money from stocks!' When a company pays out half its profits as dividends, it's essentially equivalent to you 'selling half your earnings'! Isn't it the same?"
+
+---
+
+## IX. Consensus and Disagreement Checklist
+
+| Consensus | Disagreements/Unresolved |
+|-----------|-------------------------|
+| Passive investing has severely distorted markets | Timing of reversal unpredictable |
+| High valuations affect future returns | But can't time the market |
+| Quality is the primary stock-picking criterion | "Quality" definition evolves with era |
+| Trump tariffs' impact is overstated | Short-term volatility unpredictable |
+| GLP-1 drugs will disrupt consumer goods | Competitive landscape undecided |
+| Incentive mechanisms determine everything | Perfect incentive structures barely exist |
+| Compounding internally is better than dividends | Investors' real need for cash flow |
+
+---
+
+## X. The Most Valuable Insights
+
+**Terry Smith's most认同的一句话:**
+
+> "In 1987, Julian and I were running the financial desk at BZW Investment Bank when a colleague wrote a piece titled 'A Storm Warning for Markets' about the weakness of the US dollar and rising interest rates. On the day of the great hurricane, the US index went down 22%. We were sitting in the office, witnessing the entire process."
+
+**This tells us:** Markets indeed matter. The collective intelligence and the "invisible hand" that markets possess often guide us to make the right decisions.
+
+**The most important disagreement:**
+
+> "We have no clue how to time the market. You can clearly see this phenomenon reflected in market performance."
+
+— Admitting you cannot predict is itself part of investment wisdom.
+
+---
+
+*This article is based on the Fundsmith 2025 Annual Shareholder Meeting transcript. Transcribed by Thomas Chua. Reprinted for educational purposes.*
