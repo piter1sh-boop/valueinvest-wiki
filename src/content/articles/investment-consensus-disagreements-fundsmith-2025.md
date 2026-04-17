@@ -269,4 +269,10 @@ Berkshire paid dividends only once in 1967 — 10 cents per share, totaling $10,
 
 ---
 
-*This article is based on the Fundsmith 2025 Annual Shareholder Meeting transcript. Transcribed by Thomas Chua. Reprinted for educational purposes.*
+## Source
+
+This article is based on the [Fundsmith 2025 Annual Shareholder Meeting transcript](https://steadycompounding.com/transcript/fundsmith25/) originally transcribed by Thomas Chua (March 16, 2025). Reprinted for educational purposes.
+
+---
+
+*Transcribed by Thomas Chua | March 16, 2025 | Original source: [steadycompounding.com](https://steadycompounding.com/transcript/fundsmith25/)*
