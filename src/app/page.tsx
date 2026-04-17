@@ -282,6 +282,12 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="py-8 px-6 border-t border-gray-200 text-center text-sm text-gray-500">
+        <div className="flex justify-center gap-6 mb-4">
+          <Link href="/about" className="hover:text-amber-600">About</Link>
+          <Link href="/contact" className="hover:text-amber-600">Contact</Link>
+          <Link href="/privacy-policy" className="hover:text-amber-600">Privacy Policy</Link>
+          <Link href="/terms" className="hover:text-amber-600">Terms</Link>
+        </div>
         <p>ValueInvest.Wiki — Free knowledge base for value investors</p>
         <p className="mt-2">Built with Next.js · Content verified from primary sources</p>
       </footer>
