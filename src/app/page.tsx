@@ -290,6 +290,9 @@ export default function Home() {
         </div>
         <p>ValueInvest.Wiki — Free knowledge base for value investors</p>
         <p className="mt-2">Built with Next.js · Content verified from primary sources</p>
+        <p className="mt-2">
+          <a href="https://cn.valueinvest.wiki" className="hover:text-amber-600" target="_blank" rel="noopener noreferrer">中文版</a>
+        </p>
       </footer>
     </div>
   )
