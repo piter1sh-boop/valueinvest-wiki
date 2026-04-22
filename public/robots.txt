@@ -1,5 +1,8 @@
-# https://valueinvest.wiki/robots.txt
 User-agent: *
 Allow: /
 
+# Sitemap
 Sitemap: https://valueinvest.wiki/sitemap.xml
+
+# Crawl delay for polite bots
+Crawl-delay: 1

@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
+import type { Metadata } from 'next'
 import { getPageBySlug, getAllPagesMeta } from '@/lib/markdown'
 import fs from 'fs'
 import path from 'path'
@@ -9,6 +10,22 @@ export async function generateStaticParams() {
   return letters
     .filter((l) => l.slug !== 'index')
     .map((l) => ({ slug: l.slug }))
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params
+  const page = await getPageBySlug('letters', slug)
+  if (!page) return {}
+  return {
+    title: `${page.title} | ValueInvest.Wiki`,
+    description: page.description,
+    openGraph: {
+      title: page.title,
+      description: page.description,
+      type: 'article',
+      tags: page.tags,
+    },
+  }
 }
 
 export default async function LetterPage({
@@ -38,8 +55,28 @@ export default async function LetterPage({
     }
   }
 
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: page.title,
+    description: page.description,
+    author: { '@type': 'Person', name: 'Warren Buffett' },
+    datePublished: page.created,
+    dateModified: page.updated,
+    keywords: page.tags.join(', '),
+    publisher: {
+      '@type': 'Organization',
+      name: 'ValueInvest.Wiki',
+      url: 'https://valueinvest.wiki',
+    },
+  }
+
   return (
     <div className="min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <header className="border-b border-gray-200 bg-white sticky top-0 z-50">
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
           <Link href="/" className="text-xl font-bold" style={{ color: '#1a1a2e' }}>
@@ -84,6 +121,23 @@ export default async function LetterPage({
             className="wiki-content"
             dangerouslySetInnerHTML={{ __html: page.content }}
           />
+
+          {page.links && page.links.length > 0 && (
+            <div className="mt-12 pt-8 border-t border-gray-200">
+              <h2 className="text-lg font-bold mb-4">Related Links</h2>
+              <div className="flex flex-wrap gap-2">
+                {page.links.map((link, i) => (
+                  <Link
+                    key={i}
+                    href={link.href}
+                    className="text-sm px-3 py-1 rounded bg-amber-50 text-amber-700 border border-amber-200 hover:bg-amber-100"
+                  >
+                    {link.text}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
 
           {/* Original Text Section */}
           {rawContent && (

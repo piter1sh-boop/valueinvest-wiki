@@ -29,6 +29,12 @@ function buildSlugMapping(): Record<string, string> {
 
 const slugToSection = buildSlugMapping()
 
+export interface WikiLink {
+  slug: string
+  text: string
+  href: string
+}
+
 export interface WikiPage {
   slug: string
   title: string
@@ -39,6 +45,7 @@ export interface WikiPage {
   updated: string
   content: string
   source?: string
+  links: WikiLink[]
 }
 
 export interface WikiMeta {
@@ -65,6 +72,25 @@ export async function getPageBySlug(
       'partnership-letter': 'partnership-letters',
       'meeting': 'meetings',
       'munger': 'interviews',
+    }
+
+    // Extract wikilinks for Related Links section
+    const links: WikiLink[] = []
+    const wikiLinkRegex = /\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g
+    let match
+    while ((match = wikiLinkRegex.exec(content)) !== null) {
+      const linkSlug = match[1].trim().toLowerCase().replace(/\s+/g, '-')
+      const displayText = (match[2] || match[1]).trim()
+      let href = `/${linkSlug}`
+      if (slugToSection[linkSlug]) {
+        href = `/${slugToSection[linkSlug]}/${linkSlug}`
+      } else {
+        const prefix = Object.keys(knownPrefixes).find(p => linkSlug.startsWith(p + '-'))
+        if (prefix) {
+          href = `/${knownPrefixes[prefix]}/${linkSlug}`
+        }
+      }
+      links.push({ slug: linkSlug, text: displayText, href })
     }
 
     const contentWithLinks = content
@@ -109,6 +135,7 @@ export async function getPageBySlug(
       updated: data.updated || '',
       content: processedContent.toString(),
       source: data.source,
+      links,
     }
   } catch {
     return null
