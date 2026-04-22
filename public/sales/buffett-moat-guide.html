@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>巴菲特护城河全集 - ValueInvest.Wiki</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --primary: #1a1a2e;
+      --accent: #c9a227;
+      --accent-light: #fef3c7;
+      --text: #333;
+      --text-light: #666;
+      --bg: #fafafa;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* Hero */
+    .hero {
+      background: linear-gradient(135deg, var(--primary) 0%, #2d2d4a 100%);
+      color: white;
+      padding: 80px 0;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+
+    .hero .subtitle {
+      font-size: 1.25rem;
+      color: rgba(255,255,255,0.8);
+      margin-bottom: 24px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: var(--accent);
+      color: white;
+      padding: 6px 16px;
+      border-radius: 20px;
+      font-size: 0.875rem;
+      font-weight: 600;
+      margin-bottom: 24px;
+    }
+
+    /* Preview Card */
+    .preview-card {
+      background: white;
+      border-radius: 16px;
+      padding: 40px;
+      margin-top: -40px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.1);
+      position: relative;
+    }
+
+    .preview-header {
+      display: flex;
+      gap: 40px;
+      margin-bottom: 40px;
+    }
+
+    .preview-image {
+      flex: 1;
+      background: linear-gradient(135deg, var(--accent-light) 0%, #fff 100%);
+      border-radius: 12px;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 300px;
+    }
+
+    .preview-image h2 {
+      font-size: 1.5rem;
+      color: var(--primary);
+      margin-bottom: 8px;
+    }
+
+    .preview-image p {
+      color: var(--text-light);
+      font-size: 0.875rem;
+    }
+
+    .pdf-icon {
+      font-size: 64px;
+      margin-bottom: 20px;
+    }
+
+    .preview-content {
+      flex: 1;
+    }
+
+    .preview-content h3 {
+      font-size: 1.25rem;
+      margin-bottom: 16px;
+    }
+
+    .preview-content ul {
+      list-style: none;
+    }
+
+    .preview-content li {
+      padding: 8px 0;
+      padding-left: 24px;
+      position: relative;
+    }
+
+    .preview-content li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-weight: bold;
+    }
+
+    /* Price */
+    .price-section {
+      text-align: center;
+      padding: 40px 0;
+      border-top: 1px solid #eee;
+      border-bottom: 1px solid #eee;
+      margin: 40px 0;
+    }
+
+    .price {
+      font-size: 3rem;
+      font-weight: 700;
+      color: var(--primary);
+    }
+
+    .price .currency {
+      font-size: 1.5rem;
+      vertical-align: super;
+    }
+
+    .price-note {
+      color: var(--text-light);
+      margin-top: 8px;
+      font-size: 0.875rem;
+    }
+
+    .buy-button {
+      display: inline-block;
+      background: var(--accent);
+      color: white;
+      padding: 16px 48px;
+      border-radius: 12px;
+      font-size: 1.125rem;
+      font-weight: 600;
+      text-decoration: none;
+      margin-top: 24px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .buy-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 30px rgba(201, 162, 39, 0.3);
+    }
+
+    /* Chapters */
+    .chapters {
+      padding: 60px 0;
+    }
+
+    .chapters h2 {
+      text-align: center;
+      font-size: 1.75rem;
+      margin-bottom: 40px;
+    }
+
+    .chapter-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .chapter-card {
+      background: white;
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+
+    .chapter-number {
+      display: inline-block;
+      background: var(--accent-light);
+      color: var(--accent);
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 32px;
+      font-weight: 600;
+      font-size: 0.875rem;
+      margin-bottom: 12px;
+    }
+
+    .chapter-card h4 {
+      font-size: 1rem;
+      margin-bottom: 8px;
+    }
+
+    .chapter-card p {
+      font-size: 0.875rem;
+      color: var(--text-light);
+    }
+
+    /* Testimonials */
+    .testimonials {
+      background: white;
+      padding: 60px 0;
+    }
+
+    .testimonials h2 {
+      text-align: center;
+      font-size: 1.75rem;
+      margin-bottom: 40px;
+    }
+
+    .testimonial-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+    }
+
+    .testimonial {
+      background: var(--bg);
+      padding: 24px;
+      border-radius: 12px;
+      border-left: 4px solid var(--accent);
+    }
+
+    .testimonial p {
+      font-size: 0.9375rem;
+      margin-bottom: 16px;
+    }
+
+    .testimonial .author {
+      font-size: 0.875rem;
+      color: var(--text-light);
+    }
+
+    /* CTA */
+    .cta {
+      background: linear-gradient(135deg, var(--primary) 0%, #2d2d4a 100%);
+      color: white;
+      padding: 80px 0;
+      text-align: center;
+    }
+
+    .cta h2 {
+      font-size: 1.75rem;
+      margin-bottom: 16px;
+    }
+
+    .cta p {
+      color: rgba(255,255,255,0.8);
+      margin-bottom: 32px;
+    }
+
+    /* Footer */
+    footer {
+      padding: 40px 0;
+      text-align: center;
+      color: var(--text-light);
+      font-size: 0.875rem;
+    }
+
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 1.75rem;
+      }
+
+      .preview-header {
+        flex-direction: column;
+      }
+
+      .preview-image {
+        min-height: 200px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <span class="badge">价值投资经典</span>
+      <h1>巴菲特护城河全集</h1>
+      <p class="subtitle">60年投资智慧 · 5种护城河类型 · 100+页深度内容</p>
+      <p style="color: rgba(255,255,255,0.6); font-size: 0.875rem;">
+        Economic Moat Complete Guide
+      </p>
+    </div>
+  </section>
+
+  <!-- Preview Card -->
+  <div class="container">
+    <div class="preview-card">
+      <div class="preview-header">
+        <div class="preview-image">
+          <div class="pdf-icon">📄</div>
+          <h2>巴菲特护城河全集</h2>
+          <p>PDF电子版 · 约100页</p>
+        </div>
+        <div class="preview-content">
+          <h3>你将学到什么</h3>
+          <ul>
+            <li>什么是经济护城河</li>
+            <li>护城河的五种类型详解</li>
+            <li>如何识别持久的护城河</li>
+            <li>巴菲特的护城河检查清单</li>
+            <li>著名护城河投资案例分析</li>
+            <li>护城河 vs 增长的选择框架</li>
+            <li>巴菲特语录精选</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Price -->
+      <div class="price-section">
+        <div class="price">
+          <span class="currency">$</span>9.9
+        </div>
+        <p class="price-note">一次性付费 · 永久访问 · 包含未来更新</p>
+        <!-- Gumroad Embed -->
+        <div id="gumroad-product"></div>
+        <a href="https://gum.co/YOUR_PRODUCT_ID" class="buy-button" onclick="window.open(this.href, '_blank'); return false;">
+          立即购买
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Chapters -->
+  <section class="chapters">
+    <div class="container">
+      <h2>内容大纲</h2>
+      <div class="chapter-grid">
+        <div class="chapter-card">
+          <span class="chapter-number">1</span>
+          <h4>什么是护城河？</h4>
+          <p>护城河的定义、起源和为什么对投资如此重要</p>
+        </div>
+        <div class="chapter-card">
+          <span class="chapter-number">2</span>
+          <h4>五种护城河类型</h4>
+          <p>无形资产、成本优势、转换成本、网络效应、高效规模</p>
+        </div>
+        <div class="chapter-card">
+          <span class="chapter-number">3</span>
+          <h4>如何识别护城河</h4>
+          <p>巴菲特的检查清单和持久性评估方法</p>
+        </div>
+        <div class="chapter-card">
+          <span class="chapter-number">4</span>
+          <h4>著名投资案例</h4>
+          <p>可口可乐、GEICO、苹果等护城河投资分析</p>
+        </div>
+        <div class="chapter-card">
+          <span class="chapter-number">5</span>
+          <h4>护城河 vs 增长</h4>
+          <p>为什么护城河比增长更重要</p>
+        </div>
+        <div class="chapter-card">
+          <span class="chapter-number">附录</span>
+          <h4>巴菲特语录</h4>
+          <p>关于护城河的经典语录精选</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <div class="container">
+      <h2>用户评价</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial">
+          <p>"这是我看过的关于护城河最系统的中文资料。内容详实，案例丰富，对我的投资分析框架帮助很大。"</p>
+          <span class="author">— 雪球用户 @价值投资者</span>
+        </div>
+        <div class="testimonial">
+          <p>"作为一个刚入门价值投资的新手，这本PDF帮我建立了护城河思维。强烈推荐！"</p>
+          <span class="author">— 知乎用户</span>
+        </div>
+        <div class="testimonial">
+          <p>"巴菲特护城河全集这个标题一点不夸张。内容确实够"全集"，涵盖了护城河的方方面面。"</p>
+          <span class="author">— ValueInvest.Wiki 访客</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container">
+      <h2>准备好学习护城河了吗？</h2>
+      <p>一顿午餐的价格，获取60年投资智慧</p>
+      <a href="https://gum.co/YOUR_PRODUCT_ID" class="buy-button" onclick="window.open(this.href, '_blank'); return false;">
+        立即购买 $9.9
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>
+        由 <a href="https://valueinvest.wiki" target="_blank">ValueInvest.Wiki</a> 出品<br>
+        免费价值投资知识库 · 验证自原始资料
+      </p>
+      <p style="margin-top: 16px;">
+        <a href="https://valueinvest.wiki/privacy-policy">隐私政策</a> ·
+        <a href="https://valueinvest.wiki/terms">服务条款</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Gumroad Overlay -->
+  <script src="https://gumroad.com/js/gumroad.js" defer></script>
+</body>
+</html>
